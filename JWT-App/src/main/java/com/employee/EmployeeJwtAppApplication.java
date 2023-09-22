@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @SpringBootApplication
-@EnableJpaRepositories("com.Employee")
+@EnableJpaRepositories("com.employee")
 public class EmployeeJwtAppApplication {
 
 	public static void main(String[] args) {
